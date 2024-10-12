@@ -1,0 +1,451 @@
+/* mobile first */
+/* 
+    item does not take width in this case
+    by default it take width 100%
+*/
+
+
+
+@media screen and (max-width:576px) {
+    nav .conatiner {
+        width: 90%;
+    }
+    nav .conatiner ul{
+        display: none;
+    }
+    nav .conatiner .close-icon {
+        display: block;
+    }
+    nav .conatiner .icons {
+        display: flex;
+        column-gap: 20px;
+    }
+    .header .conatiner {
+        width: 90%;
+    }
+    .header .conatiner picture {
+        order: -1;
+    }
+    .header .conatiner .header-content {
+        width: 100%;
+        text-align: center;
+    }
+    .header .conatiner .btns {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .btns .btn1 {
+        border-radius: 25px;
+    }
+    .chefs .conatiner {
+        width: 100%;
+    }
+    .chefs .conatiner .item{
+        width: 95%;
+    }
+    .gallery .conatiner {
+        width: 90%;
+    }
+    .gallery .conatiner .gallery-img .left{
+        width: 100%;
+        order: 1;
+    }
+    .gallery .conatiner .gallery-img .center{
+        width: 100%;
+        order: 2;
+    }
+    .gallery .conatiner .gallery-img .right{
+        width: 100%;
+        order: 3;
+    }
+    .contact .cont .our-info .item {
+        width: 100%;
+    }
+    .contact .name {
+        width: 100%;
+    }
+    .contact .email {
+        width: 100%;
+    }
+    .footer .conatiner {
+        width: 100%;
+    }
+    .footer .item1 {
+        width: 100%;
+        margin-left: 10px;
+    }
+    .footer .item2 {
+        width: 100%;
+        margin-left: 10px;
+    }
+    .footer .item2 button,  .footer .item2 input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .footer .item3 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    nav .conatiner {
+        width: 90%;
+    }
+    nav .conatiner ul{
+        display: none;
+    }
+    nav .conatiner .close-icon {
+        display: block;
+    }
+    nav .conatiner .icons {
+        display: flex;
+        column-gap: 20px;
+    }
+    .header .conatiner {
+        width: 90%;
+    }
+    .header .conatiner picture {
+        order: -1;
+    }
+    .header .conatiner .header-content {
+        width: 100%;
+        text-align: center;
+    }
+    .header .conatiner .btns {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .btns .btn1 {
+        border-radius: 25px;
+    }
+    .chefs .conatiner {
+        width: 100%;
+    }
+    .chefs .conatiner .item{
+        width: 80%;
+    }
+    .gallery .conatiner {
+        width: 80%;
+    }
+    .gallery .conatiner .gallery-img .left{
+        width: 100%;
+        order: 1;
+    }
+    .gallery .conatiner .gallery-img .center{
+        width: 100%;
+        order: 2;
+    }
+    .gallery .conatiner .gallery-img .right{
+        width: 100%;
+        order: 3;
+    }
+    .contact .cont .our-info .item {
+        width: 100%;
+    }
+    .contact .name {
+        width: 100%;
+    }
+    .contact .email {
+        width: 100%;
+    }
+    .footer .conatiner {
+        width: 100%;
+    }
+    .footer .item1 {
+        width: 100%;
+        margin-left: 10px;
+    }
+    .footer .item2 {
+        width: 100%;
+        margin-left: 10px;
+    }
+    .footer .item2 input{
+        width: 70%;
+        padding: 12px;
+    }
+    .footer .item2 button{
+        width: 25%;
+        padding :12px;
+
+    }
+    .footer .item3 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px){
+    nav .conatiner {
+        width: 90%;
+    }
+    nav .conatiner ul{
+        display: none;
+    }
+    nav .conatiner .close-icon {
+        display: block;
+    }
+    nav .conatiner .icons {
+        display: flex;
+        column-gap: 20px;
+    }
+    .header .conatiner {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .header .conatiner picture {
+        order: -1;
+        width: 80%;
+    }
+    .header .conatiner .header-content {
+        width: 100%;
+    }
+    .header .conatiner .btns {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .btns .btn1 {
+        border-radius: 25px;
+    }
+    .chefs .conatiner {
+        width: 100%;
+    }
+    .chefs .conatiner .item{
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    .gallery .conatiner {
+        width: 90%;
+    }
+    .gallery .conatiner .gallery-img .left{
+        width: 48%;
+        order: 1;
+    }
+    .gallery .conatiner .gallery-img .center{
+        width: 48%;
+        order: 2;
+    }
+    .gallery .conatiner .gallery-img .right{
+        width: 48%;
+        order: 3;
+    }
+    .contact .cont {
+        width: 90%;
+    }
+    .contact .cont .our-info .item {
+        width: 49%;
+    }
+    .contact .name {
+        width: 100%;
+    }
+    .contact .email {
+        width: 100%;
+    }
+    .footer .conatiner {
+        width: 100%;
+        display: flex;
+    }
+    .footer .item1 {
+        width: 50%;
+        margin-left: 10px;
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .footer .item2 {
+        width: 100%;
+        margin-left: 10px;
+        order: 4;
+    }
+    .footer .item2 input{
+        width: 70%;
+        padding: 12px;
+    }
+    .footer .item2 button{
+        width: 25%;
+        padding :12px;
+
+    }
+    .footer .item3 {
+        width: 48%;
+        order: 3;
+    }
+
+}
+@media screen and (min-width:993px) and (max-width:1199px){
+    nav .conatiner {
+        width: 90%;
+    }
+    nav .conatiner ul{
+        display: none;
+    }
+    nav .conatiner .close-icon {
+        display: block;
+    }
+    nav .conatiner .icons {
+        display: flex;
+        column-gap: 20px;
+    }
+    .header .conatiner {
+        width: 95%;
+        display: flex;
+    }
+    .header .conatiner picture{
+        width: 50%;
+    }
+    .header .conatiner .header-content {
+        width: 50%;
+    }
+    .header .conatiner .btns {
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .chefs .conatiner {
+        width: 100%;
+    }
+    .chefs .conatiner .item{
+        width: 30%;
+    }
+    .gallery .conatiner {
+        width:100%;
+    }
+    .gallery .conatiner .gallery-img .left{
+        width: 30%;
+        order: 1;
+    }
+    .gallery .conatiner .gallery-img .center{
+        width: 30%;
+        order: 2;
+    }
+    .gallery .conatiner .gallery-img .right{
+        width: 30%;
+        order: 3;
+    }
+    .contact .cont {
+        width: 100%;
+    }
+    .contact .cont .our-info .item {
+        width: 48%;
+    }
+    .contact .name {
+        width: 49%;
+    }
+    .contact .email {
+        width: 48.5%;
+    }
+    .footer .conatiner {
+        width: 100%;
+        display: flex;
+    }
+    .footer .item1 {
+        width: 50%;
+        margin-left: 10px;
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .footer .item2 {
+        width: 100%;
+        margin-left: 10px;
+        order: 4;
+    }
+    .footer .item2 input{
+        width: 80%;
+        padding: 12px;
+    }
+    .footer .item2 button{
+        width: 15%;
+        padding :12px;
+
+    }
+    .footer .item3 {
+        width: 48%;
+        order: 3;
+    }
+
+}
+@media screen and (min-width:1200px) {
+    nav .conatiner {
+        width: 100%;
+    }
+    nav .conatiner ul{
+        display: flex;
+    }
+    nav .conatiner .close-icon {
+        display: none;
+    }
+    .header .conatiner {
+        display: flex;
+        width: 80%;
+    }
+    .header .conatiner picture{
+        width: 40%;
+    }
+    .header .conatiner .header-content {
+        width: 50%;
+    }
+    .chefs .conatiner {
+        width: 80%;
+        margin: auto;
+    }
+    .chefs .conatiner .item{
+        width: 30%;
+    }
+    .gallery .conatiner {
+        width:75%;
+    }
+    .gallery .conatiner .gallery-img .left{
+        width: 32%;
+        order: 1;
+    }
+    .gallery .conatiner .gallery-img .center{
+        width: 32%;
+        order: 2;
+    }
+    .gallery .conatiner .gallery-img .right{
+        width: 32%;
+        order: 3;
+    }
+    .contact .cont {
+        width: 75%;
+    }
+    .contact .cont .our-info .item {
+        width: 49%;
+    }
+    .contact .name {
+        width: 49%;
+    }
+    .contact .email {
+        width: 48%;
+    }
+    .footer .item2 input{
+        width: 70%;
+        padding: 12px;
+    }
+    .footer .item2 button{
+        width: 25%;
+        padding :12px;
+    }
+    .footer .item .anch {
+        column-gap: 40px;
+    }
+    .footer .conatiner {
+        width: 80%;
+    }
+    .footer .item1 {
+        width: 20%;
+        margin-left: 30px;
+    }
+    .footer .item2 {
+        width: 50%;
+    }
+    .footer .item3 {
+        width: 20%;
+    }
+}
